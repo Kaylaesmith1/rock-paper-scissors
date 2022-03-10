@@ -1,0 +1,2 @@
+document.getElementsByClassName('coputer-choice')
+
