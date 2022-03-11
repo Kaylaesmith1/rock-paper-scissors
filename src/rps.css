@@ -8,8 +8,10 @@
   text-align: center;
 }
 
-h1 {
+h1,
+.game {
   text-align: center;
+  font-size: 45px;
 }
 
 h2 {
@@ -28,6 +30,12 @@ button:hover {
 #paper,
 #scissors {
   border-radius: 13px;
+}
+
+#computer-choice,
+#user-choice-display,
+#result {
+  font-style: italic;
 }
 
 .linkedin,
