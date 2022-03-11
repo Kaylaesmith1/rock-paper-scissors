@@ -1,13 +1,31 @@
 .container {
-  background-color: bisque;
+  background: linear-gradient(
+    90deg,
+    rgb(44, 172, 108) 0%,
+    rgba(9, 9, 121, 1) 100%
+  );
   margin-top: 25px;
-  border: solid 3px rgb(167, 78, 5);
+  border: solid 3px rgba(9, 9, 121, 1);
   border-radius: 8px;
   padding: 15px;
+  max-width: 950px !important;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  font-size: 20px !important;
+}
+
+button {
+  background-color: rgb(88, 165, 135);
+}
+
+button:hover {
+  background-color: white;
 }
 
 #rock,
