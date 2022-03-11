@@ -1,9 +1,5 @@
 .container {
-  background: linear-gradient(
-    90deg,
-    rgb(44, 172, 108) 0%,
-    rgba(9, 9, 121, 1) 100%
-  );
+  background: linear-gradient(90deg, rgb(44, 172, 108) 0%, #3d61ac 100%);
   margin-top: 25px;
   border: solid 3px rgba(9, 9, 121, 1);
   border-radius: 8px;
@@ -21,11 +17,11 @@ h2 {
 }
 
 button {
-  background-color: rgb(88, 165, 135);
+  background-color: rgb(207, 207, 235);
 }
 
 button:hover {
-  background-color: white;
+  background-color: #7d8aa5;
 }
 
 #rock,

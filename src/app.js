@@ -36,19 +36,19 @@ computerChoiceDisplay.innerHTML = computerChoice
 
 function getResult() {
 if (computerChoice === userChoice) {
-  result = 'Draw. You both lose!'
+  result = 'Draw!'
 
 } else if (computerChoice === 'rock' && userChoice === 'paper') {
   result = 'You win!'
 
 } else if (computerChoice === 'rock' && userChoice === 'scissors') {
-  result = 'Crushed by societal expectations. And rock. You lose.'
+  result = 'Crushed by rock. You lose.'
 
 } else if (computerChoice === 'paper' && userChoice === 'scissors') {
-  result = '"Erin, scissor me!" You win!'
+  result = 'Winner, winner chicken dinner!'
 
 } else if (computerChoice === 'paper' && userChoice === 'rock') {
-  result = 'LOSER!'
+  result = 'Tough loss for you.'
 
 } else if (computerChoice === 'scissors' && userChoice === 'paper') {
   result = 'Computer wins'
