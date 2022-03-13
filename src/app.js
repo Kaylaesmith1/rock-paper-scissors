@@ -45,13 +45,13 @@ if (computerChoice === userChoice) {
   result = 'Crushed by rock. You lose.'
 
 } else if (computerChoice === 'paper' && userChoice === 'scissors') {
-  result = 'Winner, winner chicken dinner!'
+  result = 'You! Winner, winner chicken dinner!'
 
 } else if (computerChoice === 'paper' && userChoice === 'rock') {
   result = 'Tough loss for you.'
 
 } else if (computerChoice === 'scissors' && userChoice === 'paper') {
-  result = 'Computer wins'
+  result = 'The computer!'
 
   } else if (computerChoice === 'scissors' && userChoice === 'rock') {
   result = 'You are the superior being.'
